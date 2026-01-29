@@ -1,0 +1,33 @@
+package P1_TheRealmOfPossibility
+
+
+//////////////////////////////////////////////////////
+
+
+fun foo(i: Int): Nothing {
+    TODO()
+}
+
+
+//////////////////////////////////////////////////////
+
+
+object i {
+
+    fun <T> head(l: List<T>): T {
+        TODO()
+    }
+
+}
+
+
+//////////////////////////////////////////////////////
+
+
+object imp {
+
+    fun <T> head(l: List<T>): T {
+        return l[0]
+    }
+
+}
